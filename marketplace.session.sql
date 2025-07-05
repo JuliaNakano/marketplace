@@ -1,0 +1,2 @@
+ALTER TABLE estado
+ADD sigla VARCHAR(2) NOT NULL;
