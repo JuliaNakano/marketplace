@@ -22,6 +22,23 @@ public class cliente {
         this.telefone = telefone;
         this.dataNascimento = dataNascimento;
     }
+    public cliente(String nome, String telefone, String email, LocalDate dataNascimento, String cpf) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+        this.dataNascimento = dataNascimento;
+    this.cpf = cpf;
+    }
+
+    public String toString() {
+        return "Cliente{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", dataNascimento=" + dataNascimento +
+                 ", cpf='" + cpf + '\'' +
+                '}';
+    }
     //getters e setters
     public int getCodigo() {
         return codigo;

@@ -4,16 +4,16 @@ public class produto {
     private int codigo;
     private String nome;
     private double valor_unitario;
-    private int quantcodigoade;
+    private int quantidade;
     private String descricao;
     private int categoria_codigo;
     private int mercante_codigo;
 
-    public produto(int codigo, String nome, double valor_unitario, int quantcodigoade, String descricao, int categoria_codigo, int mercante_codigo) {
+    public produto(int codigo, String nome, double valor_unitario, int quantidade, String descricao, int categoria_codigo, int mercante_codigo) {
         this.codigo = codigo;
         this.nome = nome;
         this.valor_unitario = valor_unitario;
-        this.quantcodigoade = quantcodigoade;
+        this.quantidade = quantidade;
         this.descricao = descricao;
         this.categoria_codigo = categoria_codigo;
         this.mercante_codigo = mercante_codigo;
@@ -39,11 +39,11 @@ public class produto {
     public void setValor_unitario(double valor_unitario) {
         this.valor_unitario = valor_unitario;
     }
-    public int getQuantcodigoade() {
-        return quantcodigoade;
+    public int getQuantidade() {
+        return quantidade;
     }
-    public void setQuantcodigoade(int quantcodigoade) {
-        this.quantcodigoade = quantcodigoade;
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
     public String getDescricao() {
         return descricao;
